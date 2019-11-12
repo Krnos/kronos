@@ -1,6 +1,8 @@
 const getVersions = require('../packages/kronos-get-versions/getVersions')
+const generate = require('../packages/kronos-generate/generate')
 
-var krnos = {}
-krnos.getVersions = getVersions
+var kronos = {}
+kronos.generate = generate
+kronos.getVersions = getVersions
 
-module.exports = krnos
+module.exports = kronos
