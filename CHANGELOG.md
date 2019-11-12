@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.1.0](https://github.com/Krnos/kronos/compare/v1.0.4...v1.1.0) (2019-11-12)
+
+
+### Features
+
+* **generate:** add module ([c8484cb](https://github.com/Krnos/kronos/commit/c8484cb8ea3697581a66988f54b97fface08ae04))
+
+
+### Bug Fixes
+
+* **json:** add dependencias ([3688824](https://github.com/Krnos/kronos/commit/368882499d48c0d3c12fa8b6c84874e840dbab55))
+
 ### [1.0.4](https://github.com/Krnos/kronos/compare/v1.0.3...v1.0.4) (2019-11-12)
 
 ### [1.0.3](https://github.com/Krnos/kronos/compare/v1.0.2...v1.0.3) (2019-11-12)
