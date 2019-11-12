@@ -1,0 +1,10 @@
+# Changelog
+
+All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
+
+### 1.0.1 (2019-11-12)
+
+
+### Bug Fixes
+
+* dist ([72479ca](https://github.com/Krnos/kronos/commit/72479ca1470f93b1512c2160ec686e414bef3b34))
