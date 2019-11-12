@@ -1,8 +1,8 @@
 {
   "name": "@krnos/kronos",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Chaos Package",
-  "main": "dist/krnos.cjs.js",
+  "main": "dist/kronos.cjs.js",
   "scripts": {
     "build": "bili -t node --format cjs src/index.js",
     "lint": "eslint src packages",
