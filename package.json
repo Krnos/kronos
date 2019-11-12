@@ -1,6 +1,6 @@
 {
   "name": "@krnos/kronos",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Chaos Package",
   "main": "dist/krnos.cjs.js",
   "scripts": {
