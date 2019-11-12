@@ -1,6 +1,6 @@
 {
   "name": "@krnos/kronos",
-  "version": "1.1.1",
+  "version": "1.1.0",
   "description": "Chaos Package",
   "main": "dist/kronos.cjs.js",
   "scripts": {
@@ -27,7 +27,8 @@
     "url": "https://github.com/Krnos/kronos/issues"
   },
   "publishConfig": {
-    "access": "public"
+    "access": "public",
+    "registry": "https://npm.pkg.github.com/"
   },
   "homepage": "https://github.com/Krnos/kronos#readme",
   "dependencies": {
