@@ -2,7 +2,7 @@ const Metalsmith = require('metalsmith')
 const Handlebars = require('handlebars')
 const async = require('async')
 const { pascalCase } = require('change-case')
-const fs = require('fs-extra')
+// const fs = require('fs-extra')
 const render = require('consolidate').handlebars.render
 
 // register handlebars helper
@@ -21,41 +21,33 @@ Handlebars.registerHelper('unless_eq', function (a, b, opts) {
 /**
  * Generate a template given a `src` and `dest`.
  *
- * @param {String} name
- * @param {String} description
- * @param {String} author
+ * @param {String} model
  * @param {String} src
  * @param {String} dest
  * @param {Function} done
  */
 
-module.exports = async function generate (name, description, author, src, dest, shouldBackend, preset, done) {
-  let pascalCaseSigular = pascalCase(name)
+module.exports = async function generate (model, src, dest, done) {
+  let pascalCaseSigular = pascalCase(model)
   const metalsmith = Metalsmith(src)
   Object.assign(metalsmith.metadata(), {
-    name: name,
+    model: model,
     pascalCaseSigular: pascalCaseSigular,
-    description: description,
-    author: author,
-    destDirName: name,
+    destDirName: model,
     inPlace: dest === process.cwd(),
     noEscape: true
   })
 
   await metalsmith.use(renderTemplateFiles())
 
-  shouldBackend && await copyFiles(src, dest)
+  // await copyFiles(src, dest)
 
   return new Promise(resolve => {
-    // let renameFiles1 = renameFiles()
     metalsmith.clean(false)
       .source('.') // start from template root instead of `./src` which is Metalsmith's default for `source`
       .destination(dest)
       .build((err, files) => {
         done(err)
-        if (preset === 'plugin') {
-          renameFiles(dest, pascalCaseSigular)
-        }
         resolve('resolved')
       })
   })
@@ -101,16 +93,6 @@ function renderTemplateFiles (skipInterpolation) {
  * @param {String} src
  * @param {String} dest
  */
-async function copyFiles (src, dest) {
-  await fs.copy(`${src}(base)`, dest)
-}
-
-/**
- * Rename files
- *
- * @param {String} src
- * @param {String} name
- */
-async function renameFiles (src, name) {
-  await fs.rename(`${src}/src/components/Rename.vue`, `${src}/src/components/${name}.vue`)
-}
+// async function copyFiles (src, dest) {
+//   await fs.copy(`${src}(base)`, dest)
+// }
