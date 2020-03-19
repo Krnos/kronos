@@ -26,10 +26,6 @@
   "bugs": {
     "url": "https://github.com/Krnos/kronos/issues"
   },
-  "publishConfig": {
-    "access": "public",
-    "registry": "https://npm.pkg.github.com/"
-  },
   "homepage": "https://github.com/Krnos/kronos#readme",
   "dependencies": {
     "@vue/cli-shared-utils": "^4.0.5",
