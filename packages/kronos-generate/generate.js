@@ -54,7 +54,9 @@ module.exports = async function generate (name, description, author, src, dest, 
       .build((err, files) => {
         done(err)
         if (preset === 'plugin') {
-          renameFiles(dest, pascalCaseSigular)
+          renameFiles(`${dest}/src/components/Rename.vue`, `${dest}/src/components/${pascalCaseSigular}.vue`)
+        } else if (preset === 'flutter') {
+          renameFolder(`${dest}/android/app/src/main/kotlin/mx/com/controlla/`, 'boilerplate', name)
         }
         resolve('resolved')
       })
@@ -108,9 +110,22 @@ async function copyFiles (src, dest) {
 /**
  * Rename files
  *
- * @param {String} src
- * @param {String} name
+ * @param {String} from
+ * @param {String} to
  */
-async function renameFiles (src, name) {
-  await fs.rename(`${src}/src/components/Rename.vue`, `${src}/src/components/${name}.vue`)
+async function renameFiles (from, to) {
+  await fs.rename(from, to)
+}
+
+/**
+ * Rename files
+ *
+ * @param {String} path
+ * @param {String} from
+ * @param {String} to
+ */
+async function renameFolder (path, from, to) {
+  await fs.mkdirs(`${path}/${to}`)
+  await fs.copy(`${path}/${from}`, `${path}/${to}`)
+  await fs.remove(`${path}/${from}`)
 }
