@@ -3,6 +3,7 @@ const Handlebars = require('handlebars')
 const async = require('async')
 const { pascalCase } = require('change-case')
 const fs = require('fs-extra')
+const { join } = require('path');
 const render = require('consolidate').handlebars.render
 
 // register handlebars helper
@@ -53,9 +54,8 @@ module.exports = async function generate (name, description, author, src, dest, 
       .destination(dest)
       .build((err, files) => {
         done(err)
-        if (preset === 'plugin') {
-          renameFiles(`${dest}/src/components/Rename.vue`, `${dest}/src/components/${pascalCaseSigular}.vue`)
-        } else if (preset === 'flutter') {
+        renameFiles(dest, pascalCaseSigular)
+        if (preset === 'flutter') {
           renameFolder(`${dest}/android/app/src/main/kotlin/mx/com/controlla/`, 'boilerplate', name)
         }
         resolve('resolved')
@@ -110,11 +110,22 @@ async function copyFiles (src, dest) {
 /**
  * Rename files
  *
- * @param {String} from
- * @param {String} to
+ * @param {String} dir
+ * @param {String} replace
  */
-async function renameFiles (from, to) {
-  await fs.rename(from, to)
+async function renameFiles (dir, replace) {
+  const files = fs.readdirSync(dir);
+  const match = RegExp('Rename', 'g');
+  //await fs.rename(from, to)
+
+  await files
+  .filter(file => file.match(match))
+  .forEach(file => {
+    const filePath = join(dir, file);
+    const newFilePath = join(dir, file.replace(match, replace));
+
+    fs.renameSync(filePath, newFilePath);
+  });
 }
 
 /**
