@@ -3,7 +3,7 @@ const Handlebars = require('handlebars')
 const async = require('async')
 const { pascalCase } = require('change-case')
 const fs = require('fs-extra')
-const { join } = require('path');
+const { join } = require('path')
 const render = require('consolidate').handlebars.render
 
 // register handlebars helper
@@ -114,18 +114,17 @@ async function copyFiles (src, dest) {
  * @param {String} replace
  */
 async function renameFiles (dir, replace) {
-  const files = fs.readdirSync(dir);
-  const match = RegExp('Rename', 'g');
-  //await fs.rename(from, to)
+  const files = fs.readdirSync(dir)
+  const match = RegExp('Rename', 'g')
 
   await files
-  .filter(file => file.match(match))
-  .forEach(file => {
-    const filePath = join(dir, file);
-    const newFilePath = join(dir, file.replace(match, replace));
+    .filter(file => file.match(match))
+    .forEach(file => {
+      const filePath = join(dir, file)
+      const newFilePath = join(dir, file.replace(match, replace))
 
-    fs.renameSync(filePath, newFilePath);
-  });
+      fs.renameSync(filePath, newFilePath)
+    })
 }
 
 /**

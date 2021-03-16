@@ -2,6 +2,20 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.4.0](https://github.com/Krnos/kronos/compare/v1.2.5...v1.4.0) (2021-03-16)
+
+
+### Features
+
+* rename multiples files ([7d04888](https://github.com/Krnos/kronos/commit/7d048880998ced2a1ce14f6faf1a90b9a348056f))
+
+## [1.3.0](https://github.com/Krnos/kronos/compare/v1.2.5...v1.3.0) (2021-03-16)
+
+
+### Features
+
+* rename multiples files ([7d04888](https://github.com/Krnos/kronos/commit/7d048880998ced2a1ce14f6faf1a90b9a348056f))
+
 ### [1.2.5](https://github.com/Krnos/kronos/compare/v1.2.4...v1.2.5) (2020-07-09)
 
 ### [1.2.4](https://github.com/Krnos/kronos/compare/v1.2.3...v1.2.4) (2020-07-09)
