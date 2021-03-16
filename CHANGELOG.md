@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.5.0](https://github.com/Krnos/kronos/compare/v1.2.5...v1.5.0) (2021-03-16)
+
+
+### Features
+
+* rename multiples files ([7d04888](https://github.com/Krnos/kronos/commit/7d048880998ced2a1ce14f6faf1a90b9a348056f))
+
+
+### Bug Fixes
+
+* :rotating_light: remove linter warnings ([ee289c8](https://github.com/Krnos/kronos/commit/ee289c849b596a9f2efcc8a8ff7fc04b7be31323))
+
 ## [1.4.0](https://github.com/Krnos/kronos/compare/v1.2.5...v1.4.0) (2021-03-16)
 
 
