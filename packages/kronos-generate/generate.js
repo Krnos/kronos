@@ -118,12 +118,15 @@ async function renameFiles (dir, replace) {
   const match = RegExp('Rename', 'g')
 
   await files
-    .filter(file => file.match(match))
     .forEach(file => {
-      const filePath = join(dir, file)
-      const newFilePath = join(dir, file.replace(match, replace))
-
-      fs.renameSync(filePath, newFilePath)
+      if (fs.statSync(dir + "/" + file).isDirectory()) {
+        renameFiles(dir + "/" + file, replace)        
+      } else {
+        const filePath = join(sdir, file)
+        const newFilePath = join(dir, file.replace(match, replace))
+  
+        fs.renameSync(filePath, newFilePath)
+      }
     })
 }
 
