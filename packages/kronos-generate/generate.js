@@ -119,12 +119,12 @@ async function renameFiles (dir, replace) {
 
   await files
     .forEach(file => {
-      if (fs.statSync(dir + "/" + file).isDirectory()) {
-        renameFiles(dir + "/" + file, replace)        
+      if (fs.statSync(dir + '/' + file).isDirectory()) {
+        renameFiles(dir + '/' + file, replace)
       } else {
-        const filePath = join(sdir, file)
+        const filePath = join(dir, file)
         const newFilePath = join(dir, file.replace(match, replace))
-  
+
         fs.renameSync(filePath, newFilePath)
       }
     })
