@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.5.1](https://github.com/Krnos/kronos/compare/v1.5.0...v1.5.1) (2021-03-16)
+
+
+### Bug Fixes
+
+* :rotating_light: Removing linter warnings ([fc6081f](https://github.com/Krnos/kronos/commit/fc6081f883390b91077eb0b4bb3e1880b7aa4ac0))
+* recursive directory ([a9a3227](https://github.com/Krnos/kronos/commit/a9a3227fd0b8a49d7e36b77c0975b45e456ffc63))
+
 ## [1.5.0](https://github.com/Krnos/kronos/compare/v1.2.5...v1.5.0) (2021-03-16)
 
 
