@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.6.2](https://github.com/Krnos/kronos/compare/v1.6.0...v1.6.2) (2021-05-17)
+
+
+### Bug Fixes
+
+* rename main ([c40186b](https://github.com/Krnos/kronos/commit/c40186bfe837c6708d210e690d4a6ce1137215d4))
+
 ### [1.6.1](https://github.com/Krnos/kronos/compare/v1.6.0...v1.6.1) (2021-05-17)
 
 ## [1.6.0](https://github.com/Krnos/kronos/compare/v1.5.4...v1.6.0) (2021-05-17)
