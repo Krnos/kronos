@@ -1,7 +1,7 @@
 const getVersions = require('../packages/kronos-get-versions/getVersions')
 const generate = require('../packages/kronos-generate/generate')
 const generateModel = require('../packages/kronos-generate-model/generateModel')
-const checkHasPermissions = require('../packages/kronos-generate-model/checkHasPermissions')
+const checkHasPermissions = require('../packages/kronos-check-has-permissionscheckHasPermissions')
 
 var kronos = {}
 kronos.generate = generate
