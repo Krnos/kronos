@@ -1289,9 +1289,9 @@ bili@^5.0.5:
     rollup-plugin-terser "^6.1.0"
     v8-compile-cache "^2.1.1"
 
-bluebird@^3.1.1:
+bluebird@^3.7.2:
   version "3.7.2"
-  resolved "https://registry.npmjs.org/bluebird/-/bluebird-3.7.2.tgz"
+  resolved "https://registry.yarnpkg.com/bluebird/-/bluebird-3.7.2.tgz#9f229c15be272454ffa973ace0dbee79a1b0c36f"
 
 boolbase@^1.0.0, boolbase@~1.0.0:
   version "1.0.0"
@@ -1648,11 +1648,11 @@ concat-with-sourcemaps@^1.1.0:
   dependencies:
     source-map "^0.6.1"
 
-consolidate@^0.15.1:
-  version "0.15.1"
-  resolved "https://registry.npmjs.org/consolidate/-/consolidate-0.15.1.tgz"
+consolidate@^0.16.0:
+  version "0.16.0"
+  resolved "https://registry.yarnpkg.com/consolidate/-/consolidate-0.16.0.tgz#a11864768930f2f19431660a65906668f5fbdc16"
   dependencies:
-    bluebird "^3.1.1"
+    bluebird "^3.7.2"
 
 constant-case@^3.0.4:
   version "3.0.4"
