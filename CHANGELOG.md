@@ -2,6 +2,32 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.6.3](https://github.com/Krnos/kronos/compare/v1.6.2...v1.6.3) (2021-05-17)
+
+### [1.6.2](https://github.com/Krnos/kronos/compare/v1.6.0...v1.6.2) (2021-05-17)
+
+
+### Bug Fixes
+
+* rename main ([c40186b](https://github.com/Krnos/kronos/commit/c40186bfe837c6708d210e690d4a6ce1137215d4))
+
+### [1.6.1](https://github.com/Krnos/kronos/compare/v1.6.0...v1.6.1) (2021-05-17)
+
+## [1.6.0](https://github.com/Krnos/kronos/compare/v1.5.4...v1.6.0) (2021-05-17)
+
+
+### Features
+
+* add check permissions ([b6b4745](https://github.com/Krnos/kronos/commit/b6b47457de9ab135cfbd483dac3de7a9579f0c9e))
+* add worflows ([6754e83](https://github.com/Krnos/kronos/commit/6754e83f7886f87a40fea7b817b3054a4caed98d))
+
+
+### Bug Fixes
+
+* add module ([3730fea](https://github.com/Krnos/kronos/commit/3730fea7bc889e3b8e483f4c2a8f68737b5a2805))
+* fix ([eb71f62](https://github.com/Krnos/kronos/commit/eb71f62d7bb364118b052c40feefe69c1c91b0aa))
+* route of file ([7593f8d](https://github.com/Krnos/kronos/commit/7593f8d6819c47906696e900b9d2f1f90536998e))
+
 ### [1.5.4](https://github.com/Krnos/kronos/compare/v1.5.3...v1.5.4) (2021-05-17)
 
 ### [1.5.3](https://github.com/Krnos/kronos/compare/v1.5.1...v1.5.3) (2021-05-17)
