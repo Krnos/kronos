@@ -39,7 +39,7 @@
     "metalsmith": "^2.3.0",
     "os": "^0.1.1",
     "path": "^0.12.7",
-    "semver": "^6.3.0"
+    "semver": "^7.3.5"
   },
   "husky": {
     "hooks": {
