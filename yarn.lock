@@ -3698,8 +3698,8 @@ ora@^4.0.4:
     wcwidth "^1.0.1"
 
 os@^0.1.1:
-  version "0.1.1"
-  resolved "https://registry.npmjs.org/os/-/os-0.1.1.tgz"
+  version "0.1.2"
+  resolved "https://registry.yarnpkg.com/os/-/os-0.1.2.tgz#f29a50c62908516ba42652de42f7038600cadbc2"
 
 p-finally@^1.0.0:
   version "1.0.0"
