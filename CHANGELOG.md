@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.6.5](https://github.com/Krnos/kronos/compare/v1.6.4...v1.6.5) (2021-07-15)
+
+
+### Bug Fixes
+
+* remove linter warnings ([b9d410e](https://github.com/Krnos/kronos/commit/b9d410ebf8527817ac1c165c0beda2321ffdf4f8))
+
 ### [1.6.4](https://github.com/Krnos/kronos/compare/v1.6.3...v1.6.4) (2021-07-15)
 
 
