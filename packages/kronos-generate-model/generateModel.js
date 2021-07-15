@@ -28,7 +28,7 @@ Handlebars.registerHelper('unless_eq', function (a, b, opts) {
  */
 
 module.exports = async function generate (model, src, dest, done) {
-  let pascalCaseSigular = pascalCase(model)
+  const pascalCaseSigular = pascalCase(model)
   const metalsmith = Metalsmith(src)
   Object.assign(metalsmith.metadata(), {
     model: model,

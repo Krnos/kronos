@@ -31,7 +31,7 @@ Handlebars.registerHelper('unless_eq', function (a, b, opts) {
  */
 
 module.exports = async function generate (name, description, author, src, dest, shouldBackend, preset, done) {
-  let pascalCaseSigular = pascalCase(name)
+  const pascalCaseSigular = pascalCase(name)
   const metalsmith = Metalsmith(src)
   Object.assign(metalsmith.metadata(), {
     name: name,
@@ -115,7 +115,8 @@ async function copyFiles (src, dest) {
  */
 async function renameFiles (dir, replace) {
   const files = fs.readdirSync(dir)
-  const match = RegExp('Rename', 'g')
+  const str = 'Rename'
+  const match = RegExp(str, 'g')
 
   await files
     .forEach(file => {
