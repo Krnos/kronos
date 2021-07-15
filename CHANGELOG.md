@@ -2,6 +2,21 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.6.4](https://github.com/Krnos/kronos/compare/v1.6.3...v1.6.4) (2021-07-15)
+
+
+### Bug Fixes
+
+* **deps:** bump @vue/cli-shared-utils from 4.5.11 to 4.5.13 ([9255c1e](https://github.com/Krnos/kronos/commit/9255c1ecaf31f972beb0c27e693a7684df300e05))
+* **deps:** bump actions/cache from 2.1.5 to 2.1.6 ([01a05d0](https://github.com/Krnos/kronos/commit/01a05d0a8a199ffe7beaf2b770cb93d2b34327a1))
+* **deps:** bump actions/setup-node from 2.1.5 to 2.2.0 ([723ee1a](https://github.com/Krnos/kronos/commit/723ee1a9b010c15b95441a9255233720789753d2))
+* **deps:** bump browserslist from 4.16.3 to 4.16.6 ([9942815](https://github.com/Krnos/kronos/commit/9942815f33d3463ed00b6382b08ef065130f97e1))
+* **deps:** bump consolidate from 0.15.1 to 0.16.0 ([3fdad04](https://github.com/Krnos/kronos/commit/3fdad0445cfa11e637ea01bfb0ad7c97f1e9ad78))
+* **deps:** bump fs-extra from 8.1.0 to 10.0.0 ([cd4be8b](https://github.com/Krnos/kronos/commit/cd4be8b59e51063e591890b152188d191fd7bce8))
+* **deps:** bump hosted-git-info from 2.8.8 to 2.8.9 ([8bd2763](https://github.com/Krnos/kronos/commit/8bd27631e47bfea19fd374574edd6b8099ce76b4))
+* **deps:** bump os from 0.1.1 to 0.1.2 ([354a9aa](https://github.com/Krnos/kronos/commit/354a9aacf8244e7c764b23b4f8232cdc64bd8667))
+* **deps:** bump semver from 6.3.0 to 7.3.5 ([7c3547c](https://github.com/Krnos/kronos/commit/7c3547c05fb2506847d9f7b884d8dcce173bbea9))
+
 ### [1.6.3](https://github.com/Krnos/kronos/compare/v1.6.2...v1.6.3) (2021-05-17)
 
 ### [1.6.2](https://github.com/Krnos/kronos/compare/v1.6.0...v1.6.2) (2021-05-17)
