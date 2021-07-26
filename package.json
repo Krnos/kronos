@@ -48,7 +48,7 @@
     }
   },
   "devDependencies": {
-    "@commitlint/cli": "^12.1.4",
+    "@commitlint/cli": "^13.1.0",
     "@commitlint/config-conventional": "^12.1.4",
     "bili": "^5.0.5",
     "eslint": "^7.27.0",
