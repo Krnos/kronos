@@ -2,6 +2,39 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.6.6](https://github.com/Krnos/kronos/compare/v1.6.5...v1.6.6) (2022-04-20)
+
+
+### Bug Fixes
+
+* **deps:** bump @vue/cli-shared-utils from 4.5.13 to 4.5.14 ([6f3f0f6](https://github.com/Krnos/kronos/commit/6f3f0f672c9bd35ce2633d92f9edf4e5143f0d1d))
+* **deps:** bump @vue/cli-shared-utils from 4.5.14 to 4.5.15 ([edcda8d](https://github.com/Krnos/kronos/commit/edcda8d8eef4049a5fa6744a37cf3c00ec851565))
+* **deps:** bump @vue/cli-shared-utils from 4.5.15 to 5.0.1 ([8e1a3d6](https://github.com/Krnos/kronos/commit/8e1a3d6c2e9e29c7eb3bea46fda4b127418eec5c))
+* **deps:** bump @vue/cli-shared-utils from 5.0.1 to 5.0.3 ([16e1fa7](https://github.com/Krnos/kronos/commit/16e1fa76fcf5f81e542b66e410d2644a7afbc189))
+* **deps:** bump @vue/cli-shared-utils from 5.0.3 to 5.0.4 ([e1b7023](https://github.com/Krnos/kronos/commit/e1b7023dc1a3d42cf0b08ef5add84db60b77dcd4))
+* **deps:** bump actions/cache from 2.1.6 to 2.1.7 ([268f2ca](https://github.com/Krnos/kronos/commit/268f2ca17b97c9d7ec915df0f8c34bd41f54cfb4))
+* **deps:** bump actions/cache from 2.1.7 to 3 ([39057bb](https://github.com/Krnos/kronos/commit/39057bb1669950f52cbc21428bd9e63ac5c6282e))
+* **deps:** bump actions/setup-node from 2.2.0 to 2.3.0 ([9ac243d](https://github.com/Krnos/kronos/commit/9ac243d02d98270cd68d10506c9799c26c5f2b8f))
+* **deps:** bump actions/setup-node from 2.3.0 to 2.3.1 ([6a6d538](https://github.com/Krnos/kronos/commit/6a6d53878b2b70f7cc0e39352da0f238eac1870a))
+* **deps:** bump actions/setup-node from 2.3.1 to 2.3.2 ([c950810](https://github.com/Krnos/kronos/commit/c9508109bb28c46a67bed61b7b2fed4ed5c1650b))
+* **deps:** bump actions/setup-node from 2.3.2 to 2.4.0 ([3d3c36d](https://github.com/Krnos/kronos/commit/3d3c36dcf92cb8222773147318f4fff43d2e1df5))
+* **deps:** bump actions/setup-node from 2.4.0 to 2.4.1 ([7524249](https://github.com/Krnos/kronos/commit/7524249f97c6f080c5a2a4ca463f06c6d6dcb9f8))
+* **deps:** bump actions/setup-node from 2.4.1 to 2.5.0 ([d314662](https://github.com/Krnos/kronos/commit/d314662014b459fc7d6baed037652e8854980c21))
+* **deps:** bump actions/setup-node from 2.5.0 to 2.5.1 ([0ef5cd4](https://github.com/Krnos/kronos/commit/0ef5cd47bd366976e54ad2dfe0c57979016de183))
+* **deps:** bump actions/setup-node from 2.5.1 to 3 ([2fc54ff](https://github.com/Krnos/kronos/commit/2fc54ffaec87451fc33af719a73d4ce425c68e91))
+* **deps:** bump async from 3.2.0 to 3.2.1 ([bb9f48b](https://github.com/Krnos/kronos/commit/bb9f48b97501a1d943f805d0062fd2f3a197079d))
+* **deps:** bump async from 3.2.1 to 3.2.2 ([2daaba3](https://github.com/Krnos/kronos/commit/2daaba370598c0aa3906d6cc80bb7c03d6a51e42))
+* **deps:** bump async from 3.2.2 to 3.2.3 ([d76d249](https://github.com/Krnos/kronos/commit/d76d24975bf9e66021cac6bff54d2c6f0e18e690))
+* **deps:** bump fs-extra from 10.0.0 to 10.0.1 ([1446936](https://github.com/Krnos/kronos/commit/144693609e03d8b0671f6d9332384a5b72d49ac5))
+* **deps:** bump fs-extra from 10.0.1 to 10.1.0 ([709169b](https://github.com/Krnos/kronos/commit/709169b384f7d1cc557a65791a6cecdb959aa97c))
+* **deps:** bump metalsmith from 2.3.0 to 2.4.2 ([1987c05](https://github.com/Krnos/kronos/commit/1987c05c2dfc42a49cfd77833dea13df9239445d))
+* **deps:** bump minimist from 1.2.5 to 1.2.6 ([7d5f38a](https://github.com/Krnos/kronos/commit/7d5f38ab8a3e85ca60efb471fc274aee543f9301))
+* **deps:** bump path-parse from 1.0.6 to 1.0.7 ([d14c359](https://github.com/Krnos/kronos/commit/d14c359d8800d6369bdd64815afb2110df6715cb))
+* **deps:** bump semver from 7.3.5 to 7.3.7 ([35eeca7](https://github.com/Krnos/kronos/commit/35eeca79132e4e873eb67a8a92941051626ff88c))
+* **deps:** bump shelljs from 0.8.4 to 0.8.5 ([df3f902](https://github.com/Krnos/kronos/commit/df3f9023b3482cd0b9705fa6cf2bd17dc444138a))
+* **deps:** bump trim-off-newlines from 1.0.1 to 1.0.3 ([74eecd8](https://github.com/Krnos/kronos/commit/74eecd8fe5b12c10b53708cfb4752ce46147ca01))
+* script ([5b6c3b2](https://github.com/Krnos/kronos/commit/5b6c3b2b868c0534e74fa0fd2c0d9022f19d87b0))
+
 ### [1.6.5](https://github.com/Krnos/kronos/compare/v1.6.4...v1.6.5) (2021-07-15)
 
 
