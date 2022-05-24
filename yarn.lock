@@ -1364,7 +1364,7 @@ brace-expansion@^1.1.7:
     balanced-match "^1.0.0"
     concat-map "0.0.1"
 
-braces@^3.0.1:
+braces@^3.0.2:
   version "3.0.2"
   resolved "https://registry.yarnpkg.com/braces/-/braces-3.0.2.tgz#3454e1a462ee8d599e236df336cd9ea4f8afe107"
   dependencies:
@@ -3516,8 +3516,8 @@ merge-stream@^2.0.0:
   resolved "https://registry.npmjs.org/merge-stream/-/merge-stream-2.0.0.tgz"
 
 metalsmith@^2.3.0:
-  version "2.4.2"
-  resolved "https://registry.yarnpkg.com/metalsmith/-/metalsmith-2.4.2.tgz#69e2cdb64620791ec0cd7173c68608c83ff92f06"
+  version "2.4.3"
+  resolved "https://registry.yarnpkg.com/metalsmith/-/metalsmith-2.4.3.tgz#fdff9e25be70213bde72166feb62123588120a19"
   dependencies:
     chalk "^4.1.2"
     clone "^2.1.2"
@@ -3526,7 +3526,7 @@ metalsmith@^2.3.0:
     cross-spawn "^7.0.3"
     gray-matter "^4.0.3"
     is-utf8 "~0.2.0"
-    micromatch "^4.0.4"
+    micromatch "^4.0.5"
     rimraf "^3.0.2"
     stat-mode "^1.0.0"
     thunkify "^2.1.2"
@@ -3537,12 +3537,12 @@ micro-spelling-correcter@^1.1.1:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/micro-spelling-correcter/-/micro-spelling-correcter-1.1.1.tgz#805a06a26ccfcad8f3e5c6a1ac5ff29d4530166e"
 
-micromatch@^4.0.4:
-  version "4.0.4"
-  resolved "https://registry.yarnpkg.com/micromatch/-/micromatch-4.0.4.tgz#896d519dfe9db25fce94ceb7a500919bf881ebf9"
+micromatch@^4.0.5:
+  version "4.0.5"
+  resolved "https://registry.yarnpkg.com/micromatch/-/micromatch-4.0.5.tgz#bc8999a7cbbf77cdc89f132f6e467051b49090c6"
   dependencies:
-    braces "^3.0.1"
-    picomatch "^2.2.3"
+    braces "^3.0.2"
+    picomatch "^2.3.1"
 
 mimic-fn@^2.1.0:
   version "2.1.0"
@@ -3947,7 +3947,7 @@ picomatch@^2.2.2:
   version "2.2.2"
   resolved "https://registry.npmjs.org/picomatch/-/picomatch-2.2.2.tgz"
 
-picomatch@^2.2.3:
+picomatch@^2.3.1:
   version "2.3.1"
   resolved "https://registry.yarnpkg.com/picomatch/-/picomatch-2.3.1.tgz#3ba3833733646d9d3e4995946c1365a67fb07a42"
 
