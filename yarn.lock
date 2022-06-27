@@ -796,12 +796,12 @@
     to-fast-properties "^2.0.0"
 
 "@commitlint/cli@^17.0.0":
-  version "17.0.2"
-  resolved "https://registry.yarnpkg.com/@commitlint/cli/-/cli-17.0.2.tgz#57c925fb5f09b8e4a83448d94db291ddf7aa58ee"
+  version "17.0.3"
+  resolved "https://registry.yarnpkg.com/@commitlint/cli/-/cli-17.0.3.tgz#50be9d9a8d79f6c47bfd2703638fe65215eb2526"
   dependencies:
     "@commitlint/format" "^17.0.0"
-    "@commitlint/lint" "^17.0.0"
-    "@commitlint/load" "^17.0.0"
+    "@commitlint/lint" "^17.0.3"
+    "@commitlint/load" "^17.0.3"
     "@commitlint/read" "^17.0.0"
     "@commitlint/types" "^17.0.0"
     execa "^5.0.0"
@@ -816,12 +816,12 @@
   dependencies:
     conventional-changelog-conventionalcommits "^5.0.0"
 
-"@commitlint/config-validator@^17.0.0":
-  version "17.0.0"
-  resolved "https://registry.yarnpkg.com/@commitlint/config-validator/-/config-validator-17.0.0.tgz#49ab09f3ca0ac3449e79ea389cb4942423162ac0"
+"@commitlint/config-validator@^17.0.3":
+  version "17.0.3"
+  resolved "https://registry.yarnpkg.com/@commitlint/config-validator/-/config-validator-17.0.3.tgz#5d1ec17eece1f85a0d06c05d168a039b313eb5d7"
   dependencies:
     "@commitlint/types" "^17.0.0"
-    ajv "^6.12.6"
+    ajv "^8.11.0"
 
 "@commitlint/ensure@^17.0.0":
   version "17.0.0"
@@ -841,29 +841,29 @@
     "@commitlint/types" "^17.0.0"
     chalk "^4.1.0"
 
-"@commitlint/is-ignored@^17.0.0":
-  version "17.0.0"
-  resolved "https://registry.yarnpkg.com/@commitlint/is-ignored/-/is-ignored-17.0.0.tgz#64f53517b390689e58aa3c29fbf1e05b7d4fbd65"
+"@commitlint/is-ignored@^17.0.3":
+  version "17.0.3"
+  resolved "https://registry.yarnpkg.com/@commitlint/is-ignored/-/is-ignored-17.0.3.tgz#0e1c725c1e50aea5852fb1260bc92b2ee1856425"
   dependencies:
     "@commitlint/types" "^17.0.0"
     semver "7.3.7"
 
-"@commitlint/lint@^17.0.0":
-  version "17.0.0"
-  resolved "https://registry.yarnpkg.com/@commitlint/lint/-/lint-17.0.0.tgz#38ef61e0e977d738f738233fbcdf33a5fc04cf96"
+"@commitlint/lint@^17.0.3":
+  version "17.0.3"
+  resolved "https://registry.yarnpkg.com/@commitlint/lint/-/lint-17.0.3.tgz#98542a48f03b5c144309e24cbe1c032366ea75e2"
   dependencies:
-    "@commitlint/is-ignored" "^17.0.0"
+    "@commitlint/is-ignored" "^17.0.3"
     "@commitlint/parse" "^17.0.0"
     "@commitlint/rules" "^17.0.0"
     "@commitlint/types" "^17.0.0"
 
-"@commitlint/load@^17.0.0":
-  version "17.0.0"
-  resolved "https://registry.yarnpkg.com/@commitlint/load/-/load-17.0.0.tgz#0bbefe6d8b99276714c5ea8ef32de2bd2f082698"
+"@commitlint/load@^17.0.3":
+  version "17.0.3"
+  resolved "https://registry.yarnpkg.com/@commitlint/load/-/load-17.0.3.tgz#683aa484a5515714512e442f2f4b11f75e66097a"
   dependencies:
-    "@commitlint/config-validator" "^17.0.0"
+    "@commitlint/config-validator" "^17.0.3"
     "@commitlint/execute-rule" "^17.0.0"
-    "@commitlint/resolve-extends" "^17.0.0"
+    "@commitlint/resolve-extends" "^17.0.3"
     "@commitlint/types" "^17.0.0"
     "@types/node" ">=12"
     chalk "^4.1.0"
@@ -894,11 +894,11 @@
     fs-extra "^10.0.0"
     git-raw-commits "^2.0.0"
 
-"@commitlint/resolve-extends@^17.0.0":
-  version "17.0.0"
-  resolved "https://registry.yarnpkg.com/@commitlint/resolve-extends/-/resolve-extends-17.0.0.tgz#3a40ee08184b984acf475ebc962641f435e3a639"
+"@commitlint/resolve-extends@^17.0.3":
+  version "17.0.3"
+  resolved "https://registry.yarnpkg.com/@commitlint/resolve-extends/-/resolve-extends-17.0.3.tgz#43b237899e2abd59d16af091521b888c8a071412"
   dependencies:
-    "@commitlint/config-validator" "^17.0.0"
+    "@commitlint/config-validator" "^17.0.3"
     "@commitlint/types" "^17.0.0"
     import-fresh "^3.0.0"
     lodash "^4.17.19"
@@ -1173,7 +1173,7 @@ add-stream@^1.0.0:
   version "1.0.0"
   resolved "https://registry.npmjs.org/add-stream/-/add-stream-1.0.0.tgz"
 
-ajv@^6.10.0, ajv@^6.12.4, ajv@^6.12.6:
+ajv@^6.10.0, ajv@^6.12.4:
   version "6.12.6"
   resolved "https://registry.npmjs.org/ajv/-/ajv-6.12.6.tgz"
   dependencies:
@@ -1185,6 +1185,15 @@ ajv@^6.10.0, ajv@^6.12.4, ajv@^6.12.6:
 ajv@^8.0.1:
   version "8.5.0"
   resolved "https://registry.yarnpkg.com/ajv/-/ajv-8.5.0.tgz#695528274bcb5afc865446aa275484049a18ae4b"
+  dependencies:
+    fast-deep-equal "^3.1.1"
+    json-schema-traverse "^1.0.0"
+    require-from-string "^2.0.2"
+    uri-js "^4.2.2"
+
+ajv@^8.11.0:
+  version "8.11.0"
+  resolved "https://registry.yarnpkg.com/ajv/-/ajv-8.11.0.tgz#977e91dd96ca669f54a11e23e378e33b884a565f"
   dependencies:
     fast-deep-equal "^3.1.1"
     json-schema-traverse "^1.0.0"
