@@ -1118,8 +1118,8 @@
     "@types/node" "*"
 
 "@vue/cli-shared-utils@^5.0.1":
-  version "5.0.7"
-  resolved "https://registry.yarnpkg.com/@vue/cli-shared-utils/-/cli-shared-utils-5.0.7.tgz#c6774573ea2e8106e11d3d6df342c2bd2554330a"
+  version "5.0.8"
+  resolved "https://registry.yarnpkg.com/@vue/cli-shared-utils/-/cli-shared-utils-5.0.8.tgz#75fc96528eba2b1c7e33cb7e989a984ddef99c8a"
   dependencies:
     "@achrinza/node-ipc" "^9.2.5"
     chalk "^4.1.2"
