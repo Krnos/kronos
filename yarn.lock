@@ -2077,7 +2077,7 @@ debug@^3.2.7:
   dependencies:
     ms "^2.1.1"
 
-debug@^4.0.1, debug@^4.1.0, debug@^4.1.1, debug@^4.3.3:
+debug@^4.0.1, debug@^4.1.0, debug@^4.1.1, debug@^4.3.4:
   version "4.3.4"
   resolved "https://registry.yarnpkg.com/debug/-/debug-4.3.4.tgz#1319f6579357f2338d3337d2cdd4914bb5dcc865"
   dependencies:
@@ -3486,12 +3486,12 @@ merge-stream@^2.0.0:
   resolved "https://registry.npmjs.org/merge-stream/-/merge-stream-2.0.0.tgz"
 
 metalsmith@^2.3.0:
-  version "2.5.0"
-  resolved "https://registry.yarnpkg.com/metalsmith/-/metalsmith-2.5.0.tgz#eed2697abdf889aa16f45b5516bdf0c0cef45e51"
+  version "2.5.1"
+  resolved "https://registry.yarnpkg.com/metalsmith/-/metalsmith-2.5.1.tgz#253b1a29084da759cde06eff773ae1817a1ba629"
   dependencies:
     commander "^6.2.1"
     cross-spawn "^7.0.3"
-    debug "^4.3.3"
+    debug "^4.3.4"
     gray-matter "^4.0.3"
     is-utf8 "~0.2.0"
     micromatch "^4.0.5"
