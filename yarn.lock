@@ -796,16 +796,16 @@
     to-fast-properties "^2.0.0"
 
 "@commitlint/cli@^17.0.0":
-  version "17.2.0"
-  resolved "https://registry.yarnpkg.com/@commitlint/cli/-/cli-17.2.0.tgz#75cb39181cea98ccc3c9ec122c367af4252d0b5a"
+  version "17.3.0"
+  resolved "https://registry.yarnpkg.com/@commitlint/cli/-/cli-17.3.0.tgz#d8497f03e27a5161178e802168d77de2941959a0"
   dependencies:
     "@commitlint/format" "^17.0.0"
-    "@commitlint/lint" "^17.2.0"
-    "@commitlint/load" "^17.2.0"
+    "@commitlint/lint" "^17.3.0"
+    "@commitlint/load" "^17.3.0"
     "@commitlint/read" "^17.2.0"
     "@commitlint/types" "^17.0.0"
     execa "^5.0.0"
-    lodash "^4.17.19"
+    lodash.isfunction "^3.0.9"
     resolve-from "5.0.0"
     resolve-global "1.0.0"
     yargs "^17.0.0"
@@ -823,12 +823,16 @@
     "@commitlint/types" "^17.0.0"
     ajv "^8.11.0"
 
-"@commitlint/ensure@^17.0.0":
-  version "17.0.0"
-  resolved "https://registry.yarnpkg.com/@commitlint/ensure/-/ensure-17.0.0.tgz#781ff5f8870cb98ce4496d5c71649a4cd122a0e0"
+"@commitlint/ensure@^17.3.0":
+  version "17.3.0"
+  resolved "https://registry.yarnpkg.com/@commitlint/ensure/-/ensure-17.3.0.tgz#d7bb60291a254152b468ccb2be8c0dc79667247e"
   dependencies:
     "@commitlint/types" "^17.0.0"
-    lodash "^4.17.19"
+    lodash.camelcase "^4.3.0"
+    lodash.kebabcase "^4.1.1"
+    lodash.snakecase "^4.1.1"
+    lodash.startcase "^4.4.0"
+    lodash.upperfirst "^4.3.1"
 
 "@commitlint/execute-rule@^17.0.0":
   version "17.0.0"
@@ -848,28 +852,30 @@
     "@commitlint/types" "^17.0.0"
     semver "7.3.7"
 
-"@commitlint/lint@^17.2.0":
-  version "17.2.0"
-  resolved "https://registry.yarnpkg.com/@commitlint/lint/-/lint-17.2.0.tgz#a793579d56c3e73416c750d76f09510bc8a6479f"
+"@commitlint/lint@^17.3.0":
+  version "17.3.0"
+  resolved "https://registry.yarnpkg.com/@commitlint/lint/-/lint-17.3.0.tgz#16506deaa347d61bd1195b17df1c6809a553d2a0"
   dependencies:
     "@commitlint/is-ignored" "^17.2.0"
     "@commitlint/parse" "^17.2.0"
-    "@commitlint/rules" "^17.2.0"
+    "@commitlint/rules" "^17.3.0"
     "@commitlint/types" "^17.0.0"
 
-"@commitlint/load@^17.2.0":
-  version "17.2.0"
-  resolved "https://registry.yarnpkg.com/@commitlint/load/-/load-17.2.0.tgz#11c9fb23a967ff1507a28931c91aae7f978ea4ae"
+"@commitlint/load@^17.3.0":
+  version "17.3.0"
+  resolved "https://registry.yarnpkg.com/@commitlint/load/-/load-17.3.0.tgz#ebfec0198dd1627627e32a2b2ae4744d297599a8"
   dependencies:
     "@commitlint/config-validator" "^17.1.0"
     "@commitlint/execute-rule" "^17.0.0"
-    "@commitlint/resolve-extends" "^17.1.0"
+    "@commitlint/resolve-extends" "^17.3.0"
     "@commitlint/types" "^17.0.0"
     "@types/node" "^14.0.0"
     chalk "^4.1.0"
     cosmiconfig "^7.0.0"
     cosmiconfig-typescript-loader "^4.0.0"
-    lodash "^4.17.19"
+    lodash.isplainobject "^4.0.6"
+    lodash.merge "^4.6.2"
+    lodash.uniq "^4.5.0"
     resolve-from "^5.0.0"
     ts-node "^10.8.1"
     typescript "^4.6.4"
@@ -896,22 +902,22 @@
     git-raw-commits "^2.0.0"
     minimist "^1.2.6"
 
-"@commitlint/resolve-extends@^17.1.0":
-  version "17.1.0"
-  resolved "https://registry.yarnpkg.com/@commitlint/resolve-extends/-/resolve-extends-17.1.0.tgz#7cf04fa13096c8a6544a4af13321fdf8d0d50694"
+"@commitlint/resolve-extends@^17.3.0":
+  version "17.3.0"
+  resolved "https://registry.yarnpkg.com/@commitlint/resolve-extends/-/resolve-extends-17.3.0.tgz#413a9ec393266d0673e6b9ec2f0974c358ed662d"
   dependencies:
     "@commitlint/config-validator" "^17.1.0"
     "@commitlint/types" "^17.0.0"
     import-fresh "^3.0.0"
-    lodash "^4.17.19"
+    lodash.mergewith "^4.6.2"
     resolve-from "^5.0.0"
     resolve-global "^1.0.0"
 
-"@commitlint/rules@^17.2.0":
-  version "17.2.0"
-  resolved "https://registry.yarnpkg.com/@commitlint/rules/-/rules-17.2.0.tgz#b49d5ee3b5f599d7c21aab453bb055ecdc6c2e7c"
+"@commitlint/rules@^17.3.0":
+  version "17.3.0"
+  resolved "https://registry.yarnpkg.com/@commitlint/rules/-/rules-17.3.0.tgz#4b31d6739f7eb8c7222b323b0bc2b63bd298a4ad"
   dependencies:
-    "@commitlint/ensure" "^17.0.0"
+    "@commitlint/ensure" "^17.3.0"
     "@commitlint/message" "^17.2.0"
     "@commitlint/to-lines" "^17.0.0"
     "@commitlint/types" "^17.0.0"
@@ -3362,9 +3368,21 @@ lodash.debounce@^4.0.8:
   version "4.0.8"
   resolved "https://registry.npmjs.org/lodash.debounce/-/lodash.debounce-4.0.8.tgz"
 
+lodash.isfunction@^3.0.9:
+  version "3.0.9"
+  resolved "https://registry.yarnpkg.com/lodash.isfunction/-/lodash.isfunction-3.0.9.tgz#06de25df4db327ac931981d1bdb067e5af68d051"
+
 lodash.ismatch@^4.4.0:
   version "4.4.0"
   resolved "https://registry.npmjs.org/lodash.ismatch/-/lodash.ismatch-4.4.0.tgz"
+
+lodash.isplainobject@^4.0.6:
+  version "4.0.6"
+  resolved "https://registry.yarnpkg.com/lodash.isplainobject/-/lodash.isplainobject-4.0.6.tgz#7c526a52d89b45c45cc690b88163be0497f550cb"
+
+lodash.kebabcase@^4.1.1:
+  version "4.1.1"
+  resolved "https://registry.yarnpkg.com/lodash.kebabcase/-/lodash.kebabcase-4.1.1.tgz#8489b1cb0d29ff88195cceca448ff6d6cc295c36"
 
 lodash.memoize@^4.1.2:
   version "4.1.2"
@@ -3374,6 +3392,18 @@ lodash.merge@^4.6.2:
   version "4.6.2"
   resolved "https://registry.yarnpkg.com/lodash.merge/-/lodash.merge-4.6.2.tgz#558aa53b43b661e1925a0afdfa36a9a1085fe57a"
 
+lodash.mergewith@^4.6.2:
+  version "4.6.2"
+  resolved "https://registry.yarnpkg.com/lodash.mergewith/-/lodash.mergewith-4.6.2.tgz#617121f89ac55f59047c7aec1ccd6654c6590f55"
+
+lodash.snakecase@^4.1.1:
+  version "4.1.1"
+  resolved "https://registry.yarnpkg.com/lodash.snakecase/-/lodash.snakecase-4.1.1.tgz#39d714a35357147837aefd64b5dcbb16becd8f8d"
+
+lodash.startcase@^4.4.0:
+  version "4.4.0"
+  resolved "https://registry.yarnpkg.com/lodash.startcase/-/lodash.startcase-4.4.0.tgz#9436e34ed26093ed7ffae1936144350915d9add8"
+
 lodash.truncate@^4.4.2:
   version "4.4.2"
   resolved "https://registry.yarnpkg.com/lodash.truncate/-/lodash.truncate-4.4.2.tgz#5a350da0b1113b837ecfffd5812cbe58d6eae193"
@@ -3381,6 +3411,10 @@ lodash.truncate@^4.4.2:
 lodash.uniq@^4.5.0:
   version "4.5.0"
   resolved "https://registry.npmjs.org/lodash.uniq/-/lodash.uniq-4.5.0.tgz"
+
+lodash.upperfirst@^4.3.1:
+  version "4.3.1"
+  resolved "https://registry.yarnpkg.com/lodash.upperfirst/-/lodash.upperfirst-4.3.1.tgz#1365edf431480481ef0d1c68957a5ed99d49f7ce"
 
 lodash@^4.13.1, lodash@^4.17.15, lodash@^4.17.19:
   version "4.17.21"
