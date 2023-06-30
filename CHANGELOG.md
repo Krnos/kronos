@@ -2,6 +2,8 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.6.11](https://github.com/Krnos/kronos/compare/v1.6.10...v1.6.11) (2023-06-30)
+
 ### [1.6.10](https://github.com/Krnos/kronos/compare/v1.7.0...v1.6.10) (2023-06-30)
 
 ### [1.6.9](https://github.com/Krnos/kronos/compare/v1.6.8...v1.6.9) (2022-04-20)
