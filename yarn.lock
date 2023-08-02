@@ -2919,11 +2919,11 @@ gray-matter@^4.0.3:
     strip-bom-string "^1.0.0"
 
 handlebars@^4.5.1, handlebars@^4.7.6:
-  version "4.7.7"
-  resolved "https://registry.npmjs.org/handlebars/-/handlebars-4.7.7.tgz"
+  version "4.7.8"
+  resolved "https://registry.yarnpkg.com/handlebars/-/handlebars-4.7.8.tgz#41c42c18b1be2365439188c77c6afae71c0cd9e9"
   dependencies:
     minimist "^1.2.5"
-    neo-async "^2.6.0"
+    neo-async "^2.6.2"
     source-map "^0.6.1"
     wordwrap "^1.0.0"
   optionalDependencies:
@@ -3806,7 +3806,7 @@ natural-compare@^1.4.0:
   version "1.4.0"
   resolved "https://registry.npmjs.org/natural-compare/-/natural-compare-1.4.0.tgz"
 
-neo-async@^2.6.0:
+neo-async@^2.6.2:
   version "2.6.2"
   resolved "https://registry.npmjs.org/neo-async/-/neo-async-2.6.2.tgz"
 
