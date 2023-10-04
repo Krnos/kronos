@@ -1745,8 +1745,8 @@ concat-with-sourcemaps@^1.1.0:
     source-map "^0.6.1"
 
 consolidate@^1.0.1:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/consolidate/-/consolidate-1.0.1.tgz#5de2d77eb1ac6f415a6d18427d242c2bb49aeee1"
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/consolidate/-/consolidate-1.0.3.tgz#037cfb283dc1396a98eea5bbeb05b79c2a51f2a8"
 
 constant-case@^3.0.4:
   version "3.0.4"
