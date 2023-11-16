@@ -3898,8 +3898,8 @@ merge-stream@^2.0.0:
   resolved "https://registry.npmjs.org/merge-stream/-/merge-stream-2.0.0.tgz"
 
 metalsmith@^2.3.0:
-  version "2.6.1"
-  resolved "https://registry.yarnpkg.com/metalsmith/-/metalsmith-2.6.1.tgz#43f5dd534c392fb5d9cc7c9c4f6043fdd304f103"
+  version "2.6.2"
+  resolved "https://registry.yarnpkg.com/metalsmith/-/metalsmith-2.6.2.tgz#f7551fdaabb8f38d6986bbcf64039bdd08fa9883"
   dependencies:
     chokidar "^3.5.3"
     commander "^10.0.1"
