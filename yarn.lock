@@ -1707,9 +1707,9 @@ change-case@^5.4.2:
   version "5.4.3"
   resolved "https://registry.yarnpkg.com/change-case/-/change-case-5.4.3.tgz#26cb398945027c894a306198cc72933c3db13588"
 
-chokidar@^3.5.3:
-  version "3.5.3"
-  resolved "https://registry.yarnpkg.com/chokidar/-/chokidar-3.5.3.tgz#1cf37c8707b932bd1af1ae22c0432e2acd1903bd"
+chokidar@^3.6.0:
+  version "3.6.0"
+  resolved "https://registry.yarnpkg.com/chokidar/-/chokidar-3.6.0.tgz#197c6cc669ef2a8dc5e7b4d97ee4e092c3eb0d5b"
   dependencies:
     anymatch "~3.1.2"
     braces "~3.0.2"
@@ -3849,10 +3849,10 @@ merge-stream@^2.0.0:
   resolved "https://registry.npmjs.org/merge-stream/-/merge-stream-2.0.0.tgz"
 
 metalsmith@^2.3.0:
-  version "2.6.2"
-  resolved "https://registry.yarnpkg.com/metalsmith/-/metalsmith-2.6.2.tgz#f7551fdaabb8f38d6986bbcf64039bdd08fa9883"
+  version "2.6.3"
+  resolved "https://registry.yarnpkg.com/metalsmith/-/metalsmith-2.6.3.tgz#ae13d513e2a617819d9d977a7618f8d595c94058"
   dependencies:
-    chokidar "^3.5.3"
+    chokidar "^3.6.0"
     commander "^10.0.1"
     debug "^4.3.4"
     gray-matter "^4.0.3"
